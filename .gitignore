@@ -1,0 +1,7 @@
+*/**
+mimeapps.list
+!nvim/**
+!i3/*
+!alacritty/*
+!rofi/*
+!picom/*
