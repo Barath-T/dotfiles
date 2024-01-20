@@ -52,7 +52,7 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Return exec alacritty
-bindsym $mod+Shift+Return exec brave
+bindsym $mod+Shift+Return exec firefox
 
 # kill focused window
 bindsym $mod+Shift+q kill
