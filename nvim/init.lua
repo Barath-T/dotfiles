@@ -1,2 +1,2 @@
-require("gojo.core")
-require("gojo.lazy")
+require("myconfig.core")
+require("myconfig.paq")

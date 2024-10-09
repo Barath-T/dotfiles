@@ -1,7 +1,7 @@
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
-vim.opt.relativenumber = true
+-- vim.opt.relativenumber = true
 
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
@@ -29,10 +29,9 @@ vim.opt.isfname:append "@-@"
 vim.opt.updatetime = 50
 
 vim.g.mapleader = " "
-function azhagaku()
-  vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
-  vim.cmd("hi NonText guibg=NONE ctermbg=NONE")
-end
+
+vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
+vim.cmd("hi NonText guibg=NONE ctermbg=NONE")
 
 -- vim.highlight.Normal.guibg = "NONE"
 -- vim.highlight.NonText.guibg = "NONE"
