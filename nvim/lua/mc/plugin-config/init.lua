@@ -1,0 +1,7 @@
+require("mc.plugin-config.colorscheme")
+require("mc.plugin-config.treesitter")
+require("mc.plugin-config.fugitive")
+require("mc.plugin-config.statusline")
+require("mc.plugin-config.undotree")
+require("mc.plugin-config.lsp")
+require("mc.plugin-config.devicons")
